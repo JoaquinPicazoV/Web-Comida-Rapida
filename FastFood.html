@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbo Burger</title>
+    <script src="https://kit.fontawesome.com/98fb854785.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../5-FastFood/FastFood.css">
+</head>
+
+<body>
+
+    <div class="desk-cont">
+        <!-- BARRA SUPERIOR DE NAVEGACIÓN -->
+        <nav>
+            <div class="logo">
+                <img src="../5-FastFood/img/logo.png" class="imgLogo">
+            </div>
+            <div class="options">
+                <a>Home</a>
+                <a>Menu</a>
+                <a>About</a>
+                <a>Contact</a>
+            </div>
+        </nav>
+
+        <!-- CONTENIDO DE LA PÁGINA -->
+        <main>
+
+            <!-- INFO DE PÁGINA -->
+            <div class="info">
+                <p class="title">El sabor del <b>éxito</b><br>al <b>alcance</b> de tus manos</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur est neque ad facilis, pariatur
+                    hic
+                    provident eos a similique quam ipsam delectus harum atque fugit amet eum! Cum, ipsum!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, sint ratione. Voluptas,
+                    voluptatum
+                    tempore quidem error libero ad in mollitia laborum voluptates, labore sit illo itaque fuga
+                    repellendus
+                    totam maxime?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis temporibus, dolore
+                    placeat,
+                    magnam necessitatibus quam soluta aspernatur ducimus suscipit eum iusto nobis est nihil optio
+                    repellendus ex pariatur sequi. </p>
+                <br>
+
+                <!-- BOTÓN -->
+                <button class="order"><b>Ordenar ahora</b></button>
+            </div>
+
+            <!-- IMAGEN -->
+            <div class="photo">
+                <img src="../5-FastFood/img/comida.png" class="promo">
+            </div>
+        </main>
+
+        <!-- BOTONES DE REDES SOCIALES -->
+        <footer>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-telegram"></i>
+        </footer>
+
+    </div>
+
+
+    <!-- CONTENIDO PARA PANTALLAS MÁS PEQUEÑAS -->
+    <div class="mobile-cont" id="mobile-cont">
+        <nav>
+            <div class="logo">
+                <img src="../5-FastFood/img/logo.png" class="imgLogo">
+            </div>
+            <div class="options">
+
+                <button class="menu" id="menu" onclick="options()"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main>
+            <!-- IMAGEN -->
+            <img src="../5-FastFood/img/comida.png" class="promo">
+
+            <!-- INFO DE PÁGINA -->
+            <p class="title">El sabor del <b>éxito</b><br>al <b>alcance</b> de tus manos</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur est neque ad facilis, pariatur
+                hic
+                provident eos a similique quam ipsam delectus harum atque fugit amet eum! Cum, ipsum!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, sint ratione. Voluptas,
+                voluptatum
+                tempore quidem error libero ad in mollitia laborum voluptates, labore sit illo itaque fuga
+                repellendus
+                totam maxime?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis temporibus, dolore
+                placeat,
+                magnam necessitatibus quam soluta aspernatur ducimus suscipit eum iusto nobis est nihil optio
+                repellendus ex pariatur sequi. </p>
+            <br>
+            <!-- BOTÓN -->
+            <button class="order"><b>Ordenar ahora</b></button>
+        </main>
+        <!-- BOTONES REDES SOCIALES -->
+        <footer>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-telegram"></i>
+        </footer>
+
+    </div>
+
+    <!-- SIDEBAR CON OPCIONES -->
+    <div class="opt" id="opt">
+        <div class="close">
+            <button class="menu" id="menu" onclick="options()"><i class="fa-solid fa-x"></i></button>
+        </div>
+        <div class="window">
+            <div class="aux">
+                <a>Home</a>
+                <a>Menu</a>
+                <a>About</a>
+                <a>Contact</a>
+            </div>
+
+        </div>
+    </div>
+    <script src="../5-FastFood/FastFood.js"></script>
+</body>
+
+</html>

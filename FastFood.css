@@ -1,0 +1,201 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: red;
+}
+
+.mobile-cont {
+    display: none;
+}
+
+.opt {
+    display: none;
+}
+
+.desk-cont {
+    padding: 40px;
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.imgLogo {
+    width: 25%;
+    cursor: pointer;
+}
+
+.options {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+
+    align-items: center;
+}
+
+a {
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.info {
+    width: 50%;
+
+    align-self: center;
+}
+
+
+
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.photo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo {
+    width: 90%;
+    transition: transform 0.3s;
+}
+
+.promo:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+
+
+
+}
+
+footer i {
+    font-size: 30px;
+    margin-right: 20px;
+    color: white;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.order {
+    background-color: white;
+    border-radius: 99px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+footer i:hover {
+    transform: translateY(-15px);
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .opt {
+        display: none;
+    }
+
+    .desk-cont {
+        display: none;
+    }
+
+    .mobile-cont {
+        display: grid;
+        place-items: center;
+        padding: 40px;
+        padding-top: 10px;
+    }
+
+    main {
+        display: grid;
+        place-items: center;
+    }
+
+    .imgLogo {
+        width: 50%;
+    }
+
+    .promo {
+        width: 100%;
+    }
+
+    .menu {
+        background-color: red;
+        border: none;
+        color: white;
+        font-size: 30px;
+
+    }
+
+    .opt {
+        height: 80vh;
+        padding: 40px;
+        padding-top: 10px;
+
+    }
+
+    .close {
+        display: flex;
+        width: 100%;
+        justify-content: right;
+    }
+
+    .window {
+        display: grid;
+        place-items: center;
+        height: 100%;
+        gap: 10px;
+
+    }
+
+    .aux {
+        display: grid;
+        gap: 20px;
+        place-items: center;
+    }
+
+    a {
+        transition: transform 0.3s;
+    }
+
+    a:hover {
+        transform: translateX(20px)
+    }
+
+}
